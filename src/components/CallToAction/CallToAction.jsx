@@ -7,7 +7,7 @@ const Action = () => {
     return (
         <div className="action">
             <video className="hex2" src={Hex} autoPlay muted loop></video>
-           <h2 className="actionTitle">Sichern Sie sich jetzt ihre Webseite!</h2>
+           <h3 className="actionTitle">Sichern Sie sich jetzt ihre Webseite!</h3>
            <Link to="#angebotEinholen" reloadDocument >
             <button className="actionCall">Angebot Einholen</button>
             </Link>

@@ -21,9 +21,9 @@ const Footer = () => {
             <Link to ="./">Webdesign</Link>
             <Link to ="./onlineshop">Onlineshop</Link>
             <Link to ="./agentur">Agentur</Link>
-            <Link to ="./agentur">Designer</Link>
-            <Link to ="./agentur">Angebot</Link>
-            <Link to ="./agentur">Methode</Link>
+            <Link to ="./designer">Designer</Link>
+            <Link to ="./angebot">Angebot</Link>
+            <Link to ="./methode">Methode</Link>
         </div>
         <div className="angebot">
             <p>Um ein Angebot für Ihre Webseite einzuholen Klicken Sie einfach auf den Button!</p>

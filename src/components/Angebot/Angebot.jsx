@@ -49,12 +49,14 @@ const Angebot = () => {
              <h3>Bellu</h3>
              <p>Bellu ist ein regionales Baugeschäft welches mir den Auftrag für eine Webseite gag.</p>
              <p>Bei Bellu.ch arbeitete ich mit dem CMS Wordpress.</p>
+             <a href="https://bellu.ch">Bellu</a>
          </div>
 
          <div className="card">
              <h3>IKAL TCM</h3>
              <p>Ikal TCM ist ein Heilpraktiker für welchen ich die Webseite anfertigen durfte.</p>
              <p>Für Ikal TCM verwendete ich das CMS Wordpress.</p>
+             <a href="https://ikaltcm.ch">Ikal Tcm</a>
          </div>
 
 
@@ -62,12 +64,14 @@ const Angebot = () => {
              <h3>Jewtschuk</h3>
              <p>Herr Jewtschuk ist der Inhaber eines Bauunternehmens welcher auf mich als Webdesigner vertraut.</p>
              <p>Für Jewtschuk arbeitete ich mit dem CMS Wordpress</p>
+             <a href="https://jewtschuk.ch">Jewtschuk</a>
          </div>
         
          <div className="card">
              <h3>Luna Roja</h3>
              <p>Am Puls der Zeit habe ich einen persönlichen Politblog erstellt.</p>
              <p>Der Blog ist mit dem CMS Wordpress erstellt.</p>
+             <a href="https://lunaroja.co">Luna roja</a>
          </div>
          </div>
          <ContactUs/>

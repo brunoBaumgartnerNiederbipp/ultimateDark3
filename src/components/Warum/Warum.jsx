@@ -7,7 +7,7 @@ const Warum = () => {
     return (
         <div className="warum">
            <h3>Warum Bruno Baumgartner?</h3>
-           <p>Inovatives Webdesign aus einer Hand!</p>
+           <p>Innovatives Webdesign aus einer Hand!</p>
 
            <h3>Wie komme ich an das Angebot?</h3>
            <h4>Darf es ein bischen mehr sein?</h4>

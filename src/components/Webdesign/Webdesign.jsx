@@ -9,20 +9,23 @@ import Container2 from "../Parallax2/Paralax2";
 import { ContactUs } from "../Form/Form";  
 
 
+
 const Webdesign = () => {
     return (
         <div className="webdesign">
+         
             <video className="hex" src={Hex} autoPlay muted loop></video>
-           <h1>Webdesign</h1>
+           <h1>Webdesign Bruno Baumgartner Niederbipp</h1>
+           <div className="white">
            <p>Modern Webdesign for your Bussines!
-            Seit 2018 erstelle ich für Sie Moderne Webseiten in Wordpress5, HTML5, CSS3 und React.js.
+            Seit 2018 erstelle ich für Sie moderne Webseiten in Wordpress5, HTML5, CSS3 und React.js.
            </p>
            <p>Dabei ist mir keine Herausforderung zu gross. Ob für Ihr Baugeschäft, Ihren Verein oder Ihren Coiffeursalon.
             Ob Komplette Unternehmensseite oder Mikropage, mit meiner Passion für Programierung kreiere ich
             originelle, schnelle und funktionale Seiten von A bis Z. 
            </p>
-           <p>Mein Service Beinhaltet modernes Userinterface, Userführung und SEO!</p>
-
+           <p>Mein Service beinhaltet modernes Userinterface, Userführung und SEO!</p>
+            </div>
             <div className="flex">
                 
             <Link to="./angebot" >
@@ -30,40 +33,40 @@ const Webdesign = () => {
             </Link>
             
             <Link to="#angebotEinholen" reloadDocument >
-            <button className="call">Angebot Einholen</button>
+            <button className="call">Angebot einholen</button>
             </Link>
             </div>
-            <h2>Warum eine Seite von mir?</h2>
+            <h2>Warum eine Seite von Bruno Baumgartner?</h2>
             <div className="flex">
             <div className="card">
                 <h3>Modernes Webdesign</h3>
-                <p>Ich orientiere mich immer an den neusten Trends und lasse diese in meine Designs einfliessen.</p>
-                <p>Dabei eintstehen Pixelperfekte Webseiten die Ihren Bedürfnissen und Anforderungen angepasst werden.</p>
+                <p>Ich orientiere mich immer an den neusten Technologie- Trends und lasse diese in meine Designs einfliessen.</p>
+                <p>Dabei eintstehen pixelperfekte Webseiten die Ihren Bedürfnissen und Anforderungen angepasst werden.</p>
             </div>
 
             <div className="card">
                 <h3>Alles aus einer Hand</h3>
-                <p>Ich bin ein einzelner Designer der von der UX über die UI bis zum Hositng der Seite alles selber macht.</p>
-                <p>In einer Agentur gibt es für die verschiedenen Aspekte einen Spezialisten. Ich vereine alle Disziplinen des Designs in einer Person.</p>
+                <p>Ich bin ein einzelner Developer der von der UX über die UI bis zum Hositng der Seite alles selber macht.</p>
+                <p>In einer Agentur gibt es für die verschiedenen Aspekte einen Spezialisten. Ich vereine alle Disziplinen des Webdevelopment in einer Person.</p>
             </div>
 
 
             <div className="card">
                 <h3>Sichtbar werden</h3>
                 <p>Meine Kunden wünschen sich ja nicht einfach nur eine schöne Webseite, sie wünschen sich mehr Sichtbarkeit bei Google und co.</p>
-                <p>Durch meine Langjährige Erfahrung ist es durch mich auch für Sie möglich bei Google ein breites Publikum anzusprechen.</p>
+                <p>Durch meine langjährige Erfahrung ist es durch mich auch für Sie möglich bei Google ein breites Publikum anzusprechen.</p>
             </div>
             </div>
             <div className="flex">
             <div className="card">
-                <h3>Kreativ Inovativ</h3>
+                <h3>Kreativ Innovativ</h3>
                 <p>Immer die Nase im Wind und am Puls der Zeit, bemühe ich mich um inovatives und kreatives Webdesign.</p>
-                <p>Ich setzte dabei auf die Neusten Technologien im Webdesign.</p>
+                <p>Ich setzte dabei auf die neusten Technologien im Webdesign.</p>
             </div>
 
             <div className="card">
-                <h3>Leads Steigern</h3>
-                <p>Eine Webseite ist heute das beste Werbemittel, wenn deise den auch Benutzerfreundlich und Suchmaschienen opitmiert ist.</p>
+                <h3>Leads steigern</h3>
+                <p>Eine Webseite ist heute das beste Werbemittel, wenn deise den auch benutzerfreundlich und Suchmaschienen opitmiert ist.</p>
                 <p>Unter berücksichtigung verschiedener SEO Prinzipien werden meine Seiten auf Google auch gut gefunden.</p>
             </div>
 
@@ -81,12 +84,12 @@ const Webdesign = () => {
             </div>
             <Container/>
 
-            <h2>Meine Neusten Projekte</h2>
+            <h2>Meine neusten Projekte</h2>
             <div className="flex">
                 
             <div className="card">
                 <h3>Bellu</h3>
-                <p>Bellu ist ein regionales Baugeschäft welches mir den Auftrag für eine Webseite gag.</p>
+                <p>Bellu ist ein regionales Baugeschäft welches mir den Auftrag für eine Webseite gab.</p>
                 <p>Bei Bellu.ch arbeitete ich mit dem CMS Wordpress.</p>
                 <a href="https://bellu.ch">Bellu</a>
             </div>
@@ -160,7 +163,7 @@ const Webdesign = () => {
                 <a href="mailto:hallo@oihawa.io">
             <button className="mailto">mailto:</button>
             </a>
-            <a href="tel: +41 07995528">
+            <a href="tel:0799552859">
             <button className="tel">tel:</button>
             </a>
             </div>

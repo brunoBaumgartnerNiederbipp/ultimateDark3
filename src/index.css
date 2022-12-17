@@ -33,6 +33,9 @@ h1,h2, h3,h4,p{
 h2{
   margin-top: 150px;
 }
+h3{
+  margin-top: 0;
+}
 
 
 html::-webkit-scrollbar {
