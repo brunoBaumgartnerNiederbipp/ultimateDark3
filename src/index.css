@@ -11,3 +11,44 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+a{
+  text-decoration: none;
+  color:orange;
+  font-size: 12px;
+  padding: 20px;
+  letter-spacing: 0.1em;
+  margin: 20px auto;
+  margin-top: 0;
+ 
+}
+
+h1,h2, h3,h4,p{
+  margin: 20px;
+  margin-top: 60px;
+  letter-spacing: 0.1em;
+}
+
+h2{
+  margin-top: 150px;
+}
+
+
+html::-webkit-scrollbar {
+  width: 20px; 
+}
+
+html::-webkit-scrollbar-track {
+background-color: black;
+}
+
+html::-webkit-scrollbar-thumb {
+background: #01eeff;
+border-radius: 25px;
+box-shadow: -6px -6px 14px rgba(255, 255, 255, .7),
+                -6px -6px 10px rgba(255, 255, 255, .5),
+                6px 6px 8px rgba(255, 255, 255, .075),
+                6px 6px 10px rgba(0, 0, 0, .15);}
+
+

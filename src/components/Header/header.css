@@ -1,0 +1,14 @@
+.logo{
+    height: 30px;
+    width: 100px;
+    border-radius: 5px;
+}
+
+.header{
+    display: flex;
+    height: 60px;
+    align-items: center;
+    width: 100%;
+    justify-items: center;
+    justify-content: center;
+}
