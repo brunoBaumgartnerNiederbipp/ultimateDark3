@@ -29,7 +29,7 @@ const Footer = () => {
             <p>Um ein Angebot für Ihre Webseite einzuholen Klicken Sie einfach auf den Button!</p>
         </div>
         <div className="angebot1">
-        <a href="tel: +41 07995528">
+        <a href="tel: 0799552859">
             <button className="call">Let's Talk</button>
         </a>
         </div>

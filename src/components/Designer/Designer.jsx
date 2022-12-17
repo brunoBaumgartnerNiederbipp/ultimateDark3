@@ -7,7 +7,7 @@ const Designer = () => {
     return (
         <div className="designer">
            <h1>Webdesign by Bruno Baumgartner</h1>
-           <p>Ursprünglich habe ich Automechaniker gelernt, in dieser
+           <p>Ursprünglich habe ich Automechaniker gelernt. In dieser
             Ausbildung habe ich gelernt zu lernen.
             Seit 2012 lerne ich alles was mit IT zu tuen hat.
             2017 nahm ich das erste Mal einen Server in Betrieb und 
