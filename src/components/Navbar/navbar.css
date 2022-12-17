@@ -6,6 +6,8 @@
 
 .navLink{
    right: 30px;
+   display: flex;
+   flex-direction: row;
 }
 
 

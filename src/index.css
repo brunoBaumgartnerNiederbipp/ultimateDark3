@@ -39,7 +39,7 @@ h3{
 
 
 html::-webkit-scrollbar {
-  width: 20px; 
+  width: 10px; 
 }
 
 html::-webkit-scrollbar-track {
