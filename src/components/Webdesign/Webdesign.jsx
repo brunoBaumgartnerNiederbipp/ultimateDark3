@@ -17,13 +17,13 @@ const Webdesign = () => {
 var jetzt = new Date();
 var Std = jetzt.getHours();
 if (Std >= 5 && Std < 12) {
-  bild = "./Tag.png";
+  bild = "./img/Tag.png";
 } else if (Std >= 12 && Std < 18) {
-  bild = "./Tag.png";
+  bild = "./img/Tag.png";
 } else if (Std >= 18 && Std <= 23) {
-  bild = "./Nacht.png";
+  bild = "./img/Nacht.png";
 } else if (Std >= 0 && Std < 5) {
-  bild = "./Abend.png";
+  bild = "./img/Abend.png";
 }
 
     return (

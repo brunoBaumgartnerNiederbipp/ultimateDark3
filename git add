@@ -1,0 +1,22 @@
+[1mdiff --git a/src/components/Webdesign/Webdesign.jsx b/src/components/Webdesign/Webdesign.jsx[m
+[1mindex 3ec58a9..0d44f29 100644[m
+[1m--- a/src/components/Webdesign/Webdesign.jsx[m
+[1m+++ b/src/components/Webdesign/Webdesign.jsx[m
+[36m@@ -17,13 +17,13 @@[m [mconst Webdesign = () => {[m
+ var jetzt = new Date();[m
+ var Std = jetzt.getHours();[m
+ if (Std >= 5 && Std < 12) {[m
+[31m-  bild = "./Tag.png";[m
+[32m+[m[32m  bild = "./public/Tag.png";[m
+ } else if (Std >= 12 && Std < 18) {[m
+[31m-  bild = "./Tag.png";[m
+[32m+[m[32m  bild = "./public/Tag.png";[m
+ } else if (Std >= 18 && Std <= 23) {[m
+[31m-  bild = "./Nacht.png";[m
+[32m+[m[32m  bild = "./public/Nacht.png";[m
+ } else if (Std >= 0 && Std < 5) {[m
+[31m-  bild = "./Abend.png";[m
+[32m+[m[32m  bild = "./public/Abend.png";[m
+ }[m
+ [m
+     return ([m
