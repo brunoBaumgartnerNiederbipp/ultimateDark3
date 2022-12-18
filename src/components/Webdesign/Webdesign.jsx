@@ -11,9 +11,24 @@ import { ContactUs } from "../Form/Form";
 
 
 const Webdesign = () => {
+
+
+    var bild = "";
+var jetzt = new Date();
+var Std = jetzt.getHours();
+if (Std >= 5 && Std < 12) {
+  bild = "./Tag.png";
+} else if (Std >= 12 && Std < 18) {
+  bild = "./Tag.png";
+} else if (Std >= 18 && Std <= 23) {
+  bild = "./Nacht.png";
+} else if (Std >= 0 && Std < 5) {
+  bild = "./Abend.png";
+}
+
     return (
         <div className="webdesign">
-         
+            <img className="bild" src={bild} alt="Bildwechsler mit Winterbildern" />
             <video className="hex" src={Hex} autoPlay muted loop></video>
            <h1>Webdesign Bruno Baumgartner Niederbipp</h1>
            <div className="white">
@@ -40,7 +55,7 @@ const Webdesign = () => {
             <div className="flex">
             <div className="card">
                 <h3>Modernes Webdesign</h3>
-                <p>Ich orientiere mich immer an den neusten Technologie- Trends und lasse diese in meine Designs einfliessen.</p>
+                <p>Ich orientiere mich immer an den neusten Technologietrends und lasse diese in meine Designs einfliessen.</p>
                 <p>Dabei eintstehen pixelperfekte Webseiten die Ihren Bedürfnissen und Anforderungen angepasst werden.</p>
             </div>
 
